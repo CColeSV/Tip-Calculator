@@ -1,0 +1,42 @@
+#form-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.input-elements {
+    margin-bottom: 20%;
+    text-align: right;
+
+}
+
+#calculator-title {
+    font-weight: normal;
+    font-size: 2em;
+    margin: 0 0 .5em 0;   
+}
+
+#people {
+    margin-bottom: 0;
+}
+
+#finalTipAmount {
+    text-align: center;
+    margin-top: 20%;
+}
+
+#button {
+    margin-top: 20%;
+}

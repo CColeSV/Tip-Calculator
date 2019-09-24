@@ -6,14 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <!-- LINK STYLESHEETS BELOW-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./styles/PageOne.css">
 </head>
 <body>
+    
+    <form id="form-container">
+        <h1 id="calculator-title">Tip Calculator</h1>
+
+        <label for="bill">Bill</label>
+        <input class="input-elements" id="bill" type="number" />
+        
+        <label for="tip">Tip %</label>
+        <input class="input-elements" id="tip" type="number" min=0 max=999 />
+        
+        <label for="people">Number of People</label>
+        <input class="input-elements" id="people" type="number" min=1 />
+
+        <button id="button">Calculate</button>
+    </form>
 
 </body>
 
 <!-- LINK JS BELOW-->
-<script></script>
+<script src="js/ScriptOne.js"></script>
 </html>
 
 <!-- CTRL + SHIFT + P  TO  LIVE SERVER-->
